@@ -7,18 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C8C2A32F29FD4E9C00935CFD /* iOSComparisonAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C2A32E29FD4E9C00935CFD /* iOSComparisonAppApp.swift */; };
-		C8C2A33129FD4E9C00935CFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C2A33029FD4E9C00935CFD /* ContentView.swift */; };
+		C8C2A32F29FD4E9C00935CFD /* iOSComparisonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C2A32E29FD4E9C00935CFD /* iOSComparisonApp.swift */; };
+		C8C2A33129FD4E9C00935CFD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C2A33029FD4E9C00935CFD /* MainView.swift */; };
 		C8C2A33329FD4E9E00935CFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C2A33229FD4E9E00935CFD /* Assets.xcassets */; };
 		C8C2A33629FD4E9E00935CFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C2A33529FD4E9E00935CFD /* Preview Assets.xcassets */; };
+		C8C2A33D29FD4F6D00935CFD /* MainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C2A33C29FD4F6D00935CFD /* MainItem.swift */; };
+		C8C2A33F29FD50FF00935CFD /* CalculationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C2A33E29FD50FF00935CFD /* CalculationView.swift */; };
+		C8C2A34229FD51D000935CFD /* BigInt in Frameworks */ = {isa = PBXBuildFile; productRef = C8C2A34129FD51D000935CFD /* BigInt */; };
+		C8C2A34429FD55FC00935CFD /* ScalabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C2A34329FD55FC00935CFD /* ScalabilityView.swift */; };
+		C8C2A34629FD57C200935CFD /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C2A34529FD57C200935CFD /* AnimationView.swift */; };
+		C8C2A34929FD59AE00935CFD /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C2A34829FD59AE00935CFD /* Database.swift */; };
+		C8C2A34C29FD5A6700935CFD /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = C8C2A34B29FD5A6700935CFD /* GRDB */; };
+		C8C2A34E29FD5C3100935CFD /* DatabaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C2A34D29FD5C3100935CFD /* DatabaseView.swift */; };
+		C8C2A35329FEE05800935CFD /* NativeFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C2A35229FEE05800935CFD /* NativeFeatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C8C2A32B29FD4E9C00935CFD /* iOSComparisonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSComparisonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8C2A32E29FD4E9C00935CFD /* iOSComparisonAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSComparisonAppApp.swift; sourceTree = "<group>"; };
-		C8C2A33029FD4E9C00935CFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8C2A32E29FD4E9C00935CFD /* iOSComparisonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSComparisonApp.swift; sourceTree = "<group>"; };
+		C8C2A33029FD4E9C00935CFD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C8C2A33229FD4E9E00935CFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8C2A33529FD4E9E00935CFD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8C2A33C29FD4F6D00935CFD /* MainItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItem.swift; sourceTree = "<group>"; };
+		C8C2A33E29FD50FF00935CFD /* CalculationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationView.swift; sourceTree = "<group>"; };
+		C8C2A34329FD55FC00935CFD /* ScalabilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalabilityView.swift; sourceTree = "<group>"; };
+		C8C2A34529FD57C200935CFD /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		C8C2A34829FD59AE00935CFD /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		C8C2A34D29FD5C3100935CFD /* DatabaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseView.swift; sourceTree = "<group>"; };
+		C8C2A35229FEE05800935CFD /* NativeFeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeFeatureView.swift; sourceTree = "<group>"; };
+		C8C2A35429FEE4FB00935CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8C2A34229FD51D000935CFD /* BigInt in Frameworks */,
+				C8C2A34C29FD5A6700935CFD /* GRDB in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +70,11 @@
 		C8C2A32D29FD4E9C00935CFD /* iOSComparisonApp */ = {
 			isa = PBXGroup;
 			children = (
-				C8C2A32E29FD4E9C00935CFD /* iOSComparisonAppApp.swift */,
-				C8C2A33029FD4E9C00935CFD /* ContentView.swift */,
+				C8C2A35429FEE4FB00935CFD /* Info.plist */,
+				C8C2A34F29FD5CCB00935CFD /* views */,
+				C8C2A34729FD599C00935CFD /* data */,
+				C8C2A32E29FD4E9C00935CFD /* iOSComparisonApp.swift */,
+				C8C2A33C29FD4F6D00935CFD /* MainItem.swift */,
 				C8C2A33229FD4E9E00935CFD /* Assets.xcassets */,
 				C8C2A33429FD4E9E00935CFD /* Preview Content */,
 			);
@@ -65,6 +87,27 @@
 				C8C2A33529FD4E9E00935CFD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8C2A34729FD599C00935CFD /* data */ = {
+			isa = PBXGroup;
+			children = (
+				C8C2A34829FD59AE00935CFD /* Database.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		C8C2A34F29FD5CCB00935CFD /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C8C2A33029FD4E9C00935CFD /* MainView.swift */,
+				C8C2A34529FD57C200935CFD /* AnimationView.swift */,
+				C8C2A33E29FD50FF00935CFD /* CalculationView.swift */,
+				C8C2A34D29FD5C3100935CFD /* DatabaseView.swift */,
+				C8C2A34329FD55FC00935CFD /* ScalabilityView.swift */,
+				C8C2A35229FEE05800935CFD /* NativeFeatureView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +126,10 @@
 			dependencies = (
 			);
 			name = iOSComparisonApp;
+			packageProductDependencies = (
+				C8C2A34129FD51D000935CFD /* BigInt */,
+				C8C2A34B29FD5A6700935CFD /* GRDB */,
+			);
 			productName = iOSComparisonApp;
 			productReference = C8C2A32B29FD4E9C00935CFD /* iOSComparisonApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +158,10 @@
 				Base,
 			);
 			mainGroup = C8C2A32229FD4E9C00935CFD;
+			packageReferences = (
+				C8C2A34029FD51D000935CFD /* XCRemoteSwiftPackageReference "BigInt" */,
+				C8C2A34A29FD5A6700935CFD /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+			);
 			productRefGroup = C8C2A32C29FD4E9C00935CFD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8C2A33129FD4E9C00935CFD /* ContentView.swift in Sources */,
-				C8C2A32F29FD4E9C00935CFD /* iOSComparisonAppApp.swift in Sources */,
+				C8C2A33D29FD4F6D00935CFD /* MainItem.swift in Sources */,
+				C8C2A33F29FD50FF00935CFD /* CalculationView.swift in Sources */,
+				C8C2A34429FD55FC00935CFD /* ScalabilityView.swift in Sources */,
+				C8C2A33129FD4E9C00935CFD /* MainView.swift in Sources */,
+				C8C2A34E29FD5C3100935CFD /* DatabaseView.swift in Sources */,
+				C8C2A34629FD57C200935CFD /* AnimationView.swift in Sources */,
+				C8C2A34929FD59AE00935CFD /* Database.swift in Sources */,
+				C8C2A35329FEE05800935CFD /* NativeFeatureView.swift in Sources */,
+				C8C2A32F29FD4E9C00935CFD /* iOSComparisonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,19 +325,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSComparisonApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8P8DHS259H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSComparisonApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ferit.kforjan.iOSComparisonApp;
+				PRODUCT_BUNDLE_IDENTIFIER = de.telekom.smartcallreply;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -295,19 +356,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSComparisonApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8P8DHS259H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSComparisonApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ferit.kforjan.iOSComparisonApp;
+				PRODUCT_BUNDLE_IDENTIFIER = de.telekom.smartcallreply;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -337,6 +401,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C8C2A34029FD51D000935CFD /* XCRemoteSwiftPackageReference "BigInt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/attaswift/BigInt.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		C8C2A34A29FD5A6700935CFD /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C8C2A34129FD51D000935CFD /* BigInt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8C2A34029FD51D000935CFD /* XCRemoteSwiftPackageReference "BigInt" */;
+			productName = BigInt;
+		};
+		C8C2A34B29FD5A6700935CFD /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8C2A34A29FD5A6700935CFD /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			productName = GRDB;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C8C2A32329FD4E9C00935CFD /* Project object */;
 }

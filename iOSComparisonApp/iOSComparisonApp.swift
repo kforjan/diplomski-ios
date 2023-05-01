@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct iOSComparisonAppApp: App {
+struct iOSComparisonApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
